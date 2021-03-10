@@ -112,7 +112,7 @@ TEST_CASE("Good snowman code- whird call") {
     CHECK(snowman(11111111*3) == temp);
 	CHECK(snowman(11111111+22222222) == temp);
 	CHECK(snowman(11111111*3) == temp);
-	CHECK(snowman(33333333.22) == temp); // 
+	//CHECK(snowman(33333333.22) == temp); // 
 	int x = 33333333;
 	CHECK(snowman(x)== temp);
 }

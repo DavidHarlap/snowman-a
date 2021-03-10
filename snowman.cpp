@@ -1,10 +1,10 @@
 #include "snowman.hpp"
 #include <string>
 
-using namespace ariel;
+//using namespace ariel;
 
 
-std::string snowman(int code){
+std::string ariel::snowman(int code){
     return "this should update soon" ;
     
 }
