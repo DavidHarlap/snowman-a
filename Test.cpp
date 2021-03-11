@@ -108,8 +108,7 @@ TEST_CASE("Good snowman code- whird call") {
     */
     // all the below call is the same in diffrent way.
     // there are tset for me to undestand function call in cpp
-    CHECK(snowma
-n(33333333) == temp);
+    CHECK(snowman(33333333) == temp);
     CHECK(snowman(11111111*3) == temp);
     CHECK(snowman(11111111+22222222) == temp);
     CHECK(snowman(11111111*3) == temp);
